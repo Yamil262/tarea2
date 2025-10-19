@@ -1,0 +1,24 @@
+img.sepia {
+  filter: grayscale(60%) sepia(30%);
+  border-radius: 6px;
+  box-shadow: 0 6px 10px $sombra;
+}
+
+.card .icon {
+  font-size: 2rem;
+}
+
+.btn-primary {
+  background-color: $rojo;
+  border-color: $rojo;
+}
+
+nav a {
+  color: $crema;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: $dorado;
+}

@@ -1,0 +1,13 @@
+
+/* Compiled CSS - generated from SCSS (included so the page works immediately) */
+:root{--rojo:#8b1e1e;--dorado:#cda05a;--crema:#f8f4ec;--texto:#4b3b2d;--blanco:#ffffff;--sombra:rgba(0,0,0,0.08);--radius:8px}
+*{box-sizing:border-box}body{background-color:var(--crema);color:var(--texto);font-family:Georgia,"Times New Roman",serif;margin:0;line-height:1.6}
+.header{background-color:var(--rojo);color:var(--blanco);padding:1.5rem 0}
+.header h1{font-size:2.2rem;margin-bottom:.2rem}.header .subheader{font-style:italic;color:#c15b5b}
+.hero{background-color:var(--rojo);color:var(--blanco);padding:4rem 0;text-align:center}
+.cards .card{border:none;border-radius:6px;box-shadow:0 6px 10px var(--sombra);background:linear-gradient(#fff,#faf7f3)}
+section{background:#fff;padding:2rem;border-radius:var(--radius);box-shadow:0 4px 8px var(--sombra);margin-bottom:1.5rem}
+footer{background:var(--dorado);color:var(--blanco);padding:1rem 0}
+img.sepia{filter:grayscale(60%) sepia(30%);border-radius:6px;box-shadow:0 6px 10px var(--sombra)}
+.card .icon{font-size:2rem}.btn-primary{background-color:var(--rojo);border-color:var(--rojo)}nav a{color:var(--crema);text-decoration:none;font-weight:600}nav a:hover{color:var(--dorado)}
+@media (max-width:992px){.header h1{font-size:1.8rem}.hero{padding:3rem 0}section{padding:1.5rem}}@media (max-width:600px){nav{text-align:center}.cards .card{padding:2rem}}
